@@ -6,13 +6,13 @@ If you click on the index.html file you will see two sections with many grey div
 
 #### Same Color
 -  This will be enabled by clicking on b1.
--  Create the function samecolor() which takes one input named hex.
+-  Create the function samecolor() without any inputs.
 -  Find all of the divs in the first section and change their background-color to the #rbg that you want.
 -  Also in the function give each div a different opacity (which is the property of transparency). [MDN Opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) I would suggest evenly spacing the opacities.
 
 #### Different Color
 -  This will be enabled by clicking on b2.
--  Create a function diffcolor() which takes one input named hex.
+-  Create a function diffcolor() without inputs.
 -  Find all of the divs in the second section.
 -  Color the background of half of the divs with hex and the other half with hex's color complement.
 -  Make sure the colors alternate. Example yellow, blue, yellow, blue, etc...

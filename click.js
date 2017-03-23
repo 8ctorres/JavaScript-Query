@@ -2,15 +2,22 @@
 function samecolor(){
 
 const doc = document;
-let divs = doc.querySelectorAll("#samecolor div");
+let divs = doc.querySelectorAll("#samecolor > div");
 
 for(let i=0;i<divs.length;i++){
-divs[i].style.backgroundColor = "#990011";
-console.log(i)
-}
-}
-//declare diffcolor() here
+divs[i].style.backgroundColor = "#ff0000";
 
+}
+}
+
+//declare diffcolor() here
 function diffcolor(){
 
+const doc = document;
+let divs = doc.querySelectorAll("#diffcolor div");
+
+for(let i=0;i<divs.length;i=i+2){
+divs[i].style.backgroundColor = "#ffffff";
+divs[i+1].style.backgroundColor = "#0000ff";
+}
 }
